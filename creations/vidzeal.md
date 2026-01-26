@@ -11,6 +11,7 @@ Today, I can confidently ask for more details and intuitively whip up a combinat
 I've been given opportunities to go commercial but each time refused since my focus is on individualized care that comes from a series of 1-1 conversations with you, whom I deeply care for. There is no substitute for personalized attention and that has been my hallmark.
 
 Our skin is the largest organ, and our thoughts have a telling effect on our emotions and physiology. I work on both together to bring about healing and comfort within one's skin. 
+<!--more-->
 
 ---
 

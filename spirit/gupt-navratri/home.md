@@ -2,6 +2,7 @@
 
 Gupt Navratri, or the "Hidden Nine Nights," is a deeply esoteric and meditative observance within the Old Indic spiritual tradition. Unlike the widely celebrated Sharad and Chaitra Navratris, Gupt Navratri is lesser-known and practiced primarily by advanced seekers and practitioners of Tantra and inner sādhanā. It is dedicated to the worship of the ten Mahāvidyās, the ten great wisdom goddesses, each representing a unique aspect of the divine feminine energy (Śakti).
 
+<!--more-->
 ---
 
 ## Significance of Gupt Navratri

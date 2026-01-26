@@ -1,7 +1,7 @@
 <!--//meta
 About: Invocation and meditation on Bagalāmukhī for Day 8 of Gupt Navratri.
 Description: This file contains a Sanskritized verse, poetic translation, and inner meaning dedicated to Bagalāmukhī, focusing on her role as the goddess of stillness, mastery over speech, and the power to halt distortion.
-Excerpt: A devotional invocation to Bagalāmukhī, the golden goddess, seeking her grace to still chaos, silence falsehood, and anchor the mind in calm.
+Excerpt_skip: A devotional invocation to Bagalāmukhī, the golden goddess, seeking her grace to still chaos, silence falsehood, and anchor the mind in calm.
 Primary Keyword: Bagalāmukhī
 Related Keywords: Gupt Navratri, stillness, mastery over speech, stambhana, Mahāvidyā
 Long-Tail Keywords: Bagalāmukhī invocation for calm and focus, Gupt Navratri Day 8 meditation, Sanskrit verse for stilling distortion
@@ -31,6 +31,8 @@ Nidrabhogajayam napranadeitey
 Twamvikalpitanayano aasirwadadehidey
 Oṁ Hlīṁ Bagalāmukhyai Namaḥ.
 ```
+
+<!--more-->
 
 ---
 
