@@ -1,4 +1,5 @@
 <?php
+if (!hasPageParameter('vidzeal')) return;
 define('TURNEDON', false);
 $light = false; $ratings = $blog = $services = false;
 function content($key, $return = false) {
@@ -10,7 +11,7 @@ function content($key, $return = false) {
 }
 
 function __assetUrl($file) {
-	echo getHtmlVariable('url') . 'creations/assets/home/' . $file;
+	echo getHtmlVariable('url') . sectionValue() . '/' . nodeValue() . '/' . 'creations/assets/home/' . $file;
 }
 
 function __link($content) {
@@ -182,7 +183,7 @@ foreach ($catalogue->group['Y'] as $item) {
 							<div class="col-9 col-md-4 center px-md-3 px-xl-5">
 								<div class="grid-inner">
 									<div class="product-image">
-										<a href="<?php echo $url; ?>"><img src="<?php echo getHtmlVariable('url');?>creations/assets/vidzeal-<?php echo $slug; ?>.jpg" alt="<?php echo $name; ?>"></a>
+										<a href="<?php echo $url; ?>"><img src="<?php echo getHtmlVariable('url') . sectionValue() . '/' . nodeValue();?>/creations/assets/vidzeal-<?php echo $slug; ?>.jpg" alt="<?php echo $name; ?>"></a>
 										<div class="bg-overlay">
 											<div class="bg-overlay-content align-items-center justify-content-center" data-hover-animate="fadeIn" data-hover-speed="400">
 												<a href="<?php echo $url; ?>" class="button button-xlarge bg-color2 text-light h-text-light h-op-09"><i class="icon-line-bag"></i> Add to Cart</a>

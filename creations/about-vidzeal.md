@@ -23,5 +23,4 @@ There is no guidebook, just a well developed sense of intuition and a total abse
  
 Take a leap of faith.
 
-%signature-snippet%
-
+%signature-nodesnippet%

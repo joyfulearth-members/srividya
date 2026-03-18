@@ -1,6 +1,6 @@
 #key	value
 name	Srividya Srikumar
-byline	Handmade Skincare
+byline	Artist, Writer, Skincare Specialist
 safeName	srividya-srikumar
 iconName	Srividya S
 footer-message	Owner and formulator at Vidzeal - Customised Therapeutic Luxury Handmade skincare.
@@ -9,5 +9,4 @@ sections	spirit, creations
 sections_todo	notes, thoughts
 local-url	http://localhost/srividya/
 live-url	https://amadeusweb.world/srividya/
-showIn	creativity
 year	2018
