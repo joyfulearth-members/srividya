@@ -1,5 +1,8 @@
 <?php
 variables([
+	VARName => 'Srividya Srikumar',
+	VARByline => 'Artist, Writer, Skincare Specialist',
+	VARFooterMessage => 'Owner and formulator at Vidzeal - Customised Therapeutic Luxury Handmade skincare.',
 	VARLinkToSectionHome => true,
 	VARSectionsHaveFiles => true,
 	'email' => 'srividya.srikumar@gmail.com',
