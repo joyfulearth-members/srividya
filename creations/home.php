@@ -1,7 +1,8 @@
 <?php
-if (!hasPageParameter('vidzeal')) return;
 define('TURNEDON', false);
-$light = false; $ratings = $blog = $services = false;
+
+$light = true; $ratings = $blog = $services = false;
+
 function content($key, $return = false) {
 	$sheet = getSheet(__DIR__ . '/data/home-content.tsv', 'key');
 	$item = $sheet->firstOfGroup($key, $key . ' not found', false);
@@ -10,8 +11,8 @@ function content($key, $return = false) {
 	echo $result;
 }
 
-function __assetUrl($file) {
-	echo getHtmlVariable('url') . sectionValue() . '/' . nodeValue() . '/' . 'creations/assets/home/' . $file;
+function __assetUrl($file, $where = 'home/') {
+	echo getHtmlVariable('section-assets'). $where . $file;
 }
 
 function __link($content) {
@@ -183,7 +184,7 @@ foreach ($catalogue->group['Y'] as $item) {
 							<div class="col-9 col-md-4 center px-md-3 px-xl-5">
 								<div class="grid-inner">
 									<div class="product-image">
-										<a href="<?php echo $url; ?>"><img src="<?php echo getHtmlVariable('url') . sectionValue() . '/' . nodeValue();?>/creations/assets/vidzeal-<?php echo $slug; ?>.jpg" alt="<?php echo $name; ?>"></a>
+										<a href="<?php echo $url; ?>"><img src="<?php echo __assetUrl('vidzeal-' . $slug . '.jpg', '');?>" alt="<?php echo $name; ?>"></a>
 										<div class="bg-overlay">
 											<div class="bg-overlay-content align-items-center justify-content-center" data-hover-animate="fadeIn" data-hover-speed="400">
 												<a href="<?php echo $url; ?>" class="button button-xlarge bg-color2 text-light h-text-light h-op-09"><i class="icon-line-bag"></i> Add to Cart</a>
@@ -298,7 +299,7 @@ foreach ($catalogue->group['Y'] as $item) {
 
 						<div class="heading-block mx-auto center" style="max-width: 500px">
 							<div class="before-heading center noborder pl-0 color mb-4">What People are Saying</div>
-							<h2 class="nott ls0 font-weight-bold color mb-4" style="font-size: 38px; line-height: 1.4">We’re changing the way you go to the doctor</h2>
+							<h2 class="nott ls0 font-weight-bold color mb-4" style="font-size: 38px; line-height: 1.4">Weï¿½re changing the way you go to the doctor</h2>
 						</div>
 
 						<div class="row justify-content-between mb-4 posts-md">

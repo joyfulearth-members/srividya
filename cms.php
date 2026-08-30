@@ -13,13 +13,13 @@ variables([
 		->getItems()
 ]);
 
-if (hasPageParameter('creations')) {
+if (nodeIs('creations')) {
 	includeThemeManager();
 	CanvasTheme::addAssets(CanvasTheme::beauty);
 }
 
 function after_footer_assets() {
-	if (!hasPageParameter('creations')) return;
+	if (!nodeIs('creations')) return;
 	echo NEWLINE . '	<script>
 		$(window).on("load", function(){
 			$(".twentytwenty-container[data-orientation!=\'vertical\']").twentytwenty({default_offset_pct: 0.5});
